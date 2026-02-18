@@ -240,8 +240,10 @@ export function Products() {
                   <p className="mt-1 text-sm text-muted-foreground leading-relaxed">
                     Abra una cuenta para su hija o hijo, y enséñele a manejar su dinero. Sin cuota de manejo, con control parental y educación financiera.
                   </p>
-                  <Button variant="ghost" className="mt-3 px-0 text-primary hover:text-primary/80 hover:bg-transparent">
-                    Ver detalles <ArrowRight className="w-4 h-4 ml-1" />
+                  <Button variant="ghost" className="mt-3 px-0 text-primary hover:text-primary/80 hover:bg-transparent" asChild>
+                    <a href="https://www.davivienda.com/personas/cuentas/cuenta-de-ahorro-para-ninos" target="_blank" rel="noopener noreferrer">
+                      Ver detalles <ArrowRight className="w-4 h-4 ml-1" />
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -263,8 +265,10 @@ export function Products() {
                   <p className="mt-1 text-sm text-muted-foreground leading-relaxed">
                     {familia.descripcion}
                   </p>
-                  <Button variant="ghost" className="mt-3 px-0 text-primary hover:text-primary/80 hover:bg-transparent">
-                    Ver detalles <ArrowRight className="w-4 h-4 ml-1" />
+                  <Button variant="ghost" className="mt-3 px-0 text-primary hover:text-primary/80 hover:bg-transparent" asChild>
+                    <a href="https://portafoliofamiliadavivienda.com/" target="_blank" rel="noopener noreferrer">
+                      Ver detalles <ArrowRight className="w-4 h-4 ml-1" />
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -336,8 +340,10 @@ export function Products() {
                     ))}
                   </div>
                 </div>
-                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-fit">
-                  Abrir Cuenta Niños <ArrowRight className="w-4 h-4 ml-1" />
+                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-fit" asChild>
+                  <a href="https://www.davivienda.com/personas/cuentas/cuenta-de-ahorro-para-ninos" target="_blank" rel="noopener noreferrer">
+                    Abrir Cuenta Niños <ArrowRight className="w-4 h-4 ml-1" />
+                  </a>
                 </Button>
               </div>
             </div>
