@@ -2,7 +2,7 @@ import Image from "next/image"
 import { CheckCircle2 } from "lucide-react"
 
 const features = [
-  "Mas de 50 anos liderando el sector bancario en Colombia",
+  "Mas de 50 años liderando el sector bancario en Colombia",
   "Presencia internacional en 6 paises de la region",
   "Banca digital de vanguardia con DaviPlata",
   "Red de mas de 700 oficinas y 2.500 cajeros automaticos",
@@ -20,7 +20,7 @@ export function About() {
                 src="/images/team-bank.png"
                 alt="Equipo profesional de Davivienda"
                 fill
-                className="object-cover"
+                className="object-cover "
               />
             </div>
             {/* Floating card */}
@@ -42,7 +42,7 @@ export function About() {
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
               En Davivienda creemos que el progreso de las personas y las empresas es nuestro 
-              progreso. Con mas de 50 anos de experiencia, somos uno de los bancos mas grandes 
+              progreso. Con mas de 50 años de experiencia, somos uno de los bancos mas grandes 
               y solidos de Colombia, con presencia en toda la region.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
