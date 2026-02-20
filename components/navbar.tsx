@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X, ChevronDown, Baby, Users, User, Laptop } from "lucide-react"
+import { Menu, X, ChevronDown, Baby, Users, User, Laptop, Wallet } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { DaviviendaLogo } from "@/components/davivienda-logo"
 
@@ -13,6 +13,16 @@ const productosMenu = [
     items: [
       { label: "Cuenta Niños",       href: "#cuenta-ninos",      icon: Baby,  desc: "Ahorro desde pequeños" },
       { label: "Portafolio Familia", href: "#portafolio-familia", icon: Users, desc: "Beneficios grupales" },
+    ],
+  },
+  {
+    grupo: "Banca Personal",
+    href: "#banca-personal",
+    items: [
+      { label: "Tarjeta G-Zero",   href: "#banca-personal", icon: Wallet, desc: "Sin cuota de manejo" },
+      { label: "Visa Clásica",     href: "#banca-personal", icon: Wallet, desc: "Construye tu historial" },
+      { label: "Diners Club",      href: "#banca-personal", icon: Wallet, desc: "Mundo de privilegios" },
+      { label: "LifeMiles",        href: "#banca-personal", icon: Wallet, desc: "Viaja con beneficios" },
     ],
   },
   {

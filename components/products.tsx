@@ -4,7 +4,7 @@ import {
   ArrowRight, Baby, Users, User, Laptop,
   ShieldCheck, ShoppingBag, BookOpen, DollarSign, FileText, AlertCircle,
   QrCode, RefreshCw, CreditCard, Zap, Settings, Clock, Lock, CheckCircle,
-  Percent, Star, Gift, MapPin, Home,
+  Percent, Star, Gift, MapPin, Home, Plane, Award, Sparkles, Wallet,
 } from "lucide-react"
 
 // ── Cuenta Niños ─────────────────────────────────────────────────────────────
@@ -141,6 +141,118 @@ const digital = [
       "Ser cliente Davivienda con cuenta de ahorros o corriente activa.",
       "Tener la App Davivienda instalada.",
       "Para la Tarjeta de Crédito Móvil: ingreso mínimo desde 1 SMLV y estudio de crédito.",
+    ],
+  },
+]
+
+// ── Banca Personal – Tarjetas de Crédito ─────────────────────────────────────
+const bancaPersonal = [
+  {
+    icon: Sparkles,
+    nombre: "G-Zero",
+    badge: "Sin cuota de manejo",
+    descripcion: "La tarjeta con la que puede hacer todo: sin cuota de manejo, hasta un 50% en avances y 0% de interés en Apple.",
+    cuota: "$0",
+    tasa: "1,89% M.V. — 25,19% E.A.",
+    highlights: [
+      { icon: Percent,     texto: "Green Cashback: 1% de devolución en restaurantes y plataformas (Netflix, Spotify, etc.)." },
+      { icon: DollarSign,  texto: "Avances en efectivo hasta el 50% del cupo desde $7.500." },
+      { icon: ShoppingBag, texto: "0% de interés en productos Apple para compras mayores a $800.000." },
+      { icon: Gift,        texto: "Casillero Ultrabox: reciba compras internacionales en casa gratis." },
+    ],
+    asistencias: [
+      "Consulta psicológica (1 vez al año).",
+      "Curso de coctelería.",
+      "Traslado de bicicleta en caso de accidente.",
+      "Asesoría nutricional con plan personalizado.",
+      "Sueroterapia intravenosa (post-evento).",
+      "Centro de atención al cliente Visa (internacional).",
+    ],
+    requisitos: [
+      "Ser mayor de 18 años con cédula de ciudadanía.",
+      "Ingresos mínimos de 1 SMLMV.",
+    ],
+  },
+  {
+    icon: CreditCard,
+    nombre: "Visa Clásica",
+    badge: "Ideal para construir historial",
+    descripcion: "La tarjeta perfecta para crear un buen historial crediticio. Bono de bienvenida de 1.000 Davipuntos por $900.000 en compras en los 3 primeros meses.",
+    cuota: "$31.500 M.A.",
+    tasa: "1,89% M.V. — 25,19% E.A.",
+    highlights: [
+      { icon: Percent,     texto: "Sin cuota de manejo por compras mayores a $500.000 al mes." },
+      { icon: Star,        texto: "1.000 Davipuntos de bienvenida por $900.000 en compras en los 3 primeros meses." },
+      { icon: DollarSign,  texto: "Avances en efectivo hasta el 50% del cupo." },
+      { icon: Gift,        texto: "Casillero Ultrabox: reciba compras internacionales en casa gratis." },
+    ],
+    asistencias: [
+      "Orientación médica veterinaria (1 vez al año).",
+      "Armado de muebles (1 vez al año).",
+      "Grúa por accidentes o averías (1 vez al año).",
+      "Guía en cocina saludable.",
+      "Asesoría psicológica (1 vez al año).",
+      "Servicio médico exterior: 30% descuento en Assist Card.",
+      "Protección de precio: cobertura si encuentra precio menor.",
+    ],
+    requisitos: [
+      "Ser mayor de 18 años con cédula de ciudadanía.",
+      "Ingresos mínimos de 1 SMLMV.",
+    ],
+  },
+  {
+    icon: Award,
+    nombre: "Diners Club",
+    badge: "Mundo de privilegios",
+    descripcion: "Disfrute un mundo de privilegios exclusivos. Bono de bienvenida de 3.000 Davipuntos por $900.000 en compras en los 3 primeros meses.",
+    cuota: "$31.500 M.A.",
+    tasa: "1,89% M.V. — 25,19% E.A.",
+    highlights: [
+      { icon: Percent,     texto: "Sin cuota de manejo por compras mayores a $500.000 al mes." },
+      { icon: Star,        texto: "1 Davipunto por cada dólar facturado + 3.000 Davipuntos de bienvenida." },
+      { icon: Plane,       texto: "2 accesos a salas VIP en aeropuertos." },
+      { icon: DollarSign,  texto: "Avances en efectivo hasta el 50% del cupo." },
+    ],
+    asistencias: [
+      "Armado de muebles (1 vez al año).",
+      "Grúa por accidentes o averías (2 veces al año).",
+      "Guía en cocina saludable.",
+      "Asesoría psicológica (1 vez al año).",
+      "Orientación médica veterinaria (1 vez al año).",
+      "Servicio médico exterior: 30% descuento en Assist Card.",
+      "Acceso a Mundo Diners: gastronomía, servicios internacionales y Davipuntos.",
+    ],
+    requisitos: [
+      "Ser mayor de 18 años con cédula de ciudadanía.",
+      "Ingresos mínimos de 1 SMLMV.",
+    ],
+  },
+  {
+    icon: Plane,
+    nombre: "LifeMiles",
+    badge: "Viaja con beneficios",
+    descripcion: "Reciba beneficios en viajes y bono de bienvenida de 2.000 millas LM por compras de 400 USD en los 2 primeros meses desde la activación.",
+    cuota: "$31.500 M.A.",
+    tasa: "1,89% M.V. — 25,19% E.A.",
+    highlights: [
+      { icon: Percent,     texto: "Sin cuota de manejo por compras mensuales de $1.100.000." },
+      { icon: Plane,       texto: "Acumule 0,75 millas por dólar + adelante desde 1.000 hasta 5.000 millas." },
+      { icon: Star,        texto: "2.000 millas de bienvenida por compras superiores a 400 USD." },
+      { icon: DollarSign,  texto: "Avances en efectivo hasta el 50% del cupo." },
+    ],
+    asistencias: [
+      "Armado de muebles (1 vez al año).",
+      "Grúa por accidentes o averías (1 vez al año).",
+      "Guía en cocina saludable.",
+      "Asesoría psicológica (1 vez al año).",
+      "Orientación médica veterinaria (1 vez al año).",
+      "Centro de atención al cliente Visa.",
+      "Servicio médico exterior: 30% descuento en Assist Card.",
+      "Protección de precio en compras.",
+    ],
+    requisitos: [
+      "Ser mayor de 18 años con cédula de ciudadanía.",
+      "Ingresos mínimos de 1 SMLMV.",
     ],
   },
 ]
@@ -481,6 +593,111 @@ export function Products() {
                 </Button>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* ════════════════════════════════════════════════
+            BANCA PERSONAL – TARJETAS DE CRÉDITO
+        ════════════════════════════════════════════════ */}
+        <div id="banca-personal" className="rounded-2xl border border-border bg-card overflow-hidden">
+          {/* Cabecera */}
+          <div className="flex items-center gap-4 px-8 py-6 border-b border-border bg-primary/5">
+            <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center shrink-0">
+              <Wallet className="w-6 h-6 text-primary-foreground" />
+            </div>
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-widest text-primary">Sección</p>
+              <h3 className="text-2xl font-serif font-bold text-card-foreground">Banca Personal</h3>
+            </div>
+            <p className="ml-auto hidden md:block text-sm text-muted-foreground max-w-xs text-right leading-relaxed">
+              Tarjetas de crédito diseñadas para cada estilo de vida, con beneficios exclusivos y tasas competitivas.
+            </p>
+          </div>
+
+          <div className="p-8 space-y-6">
+            {bancaPersonal.map((tarjeta) => (
+              <div key={tarjeta.nombre} className="rounded-xl border border-border overflow-hidden">
+                {/* Cabecera tarjeta */}
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3 px-6 py-4 bg-muted/30 border-b border-border">
+                  <div className="flex items-center gap-3">
+                    <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                      <tarjeta.icon className="w-5 h-5 text-primary" />
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-widest text-primary">{tarjeta.badge}</p>
+                      <h4 className="font-serif font-bold text-card-foreground text-lg leading-tight">
+                        Tarjeta {tarjeta.nombre}
+                      </h4>
+                    </div>
+                  </div>
+                  <div className="sm:ml-auto flex items-center gap-4">
+                    <div className="text-center">
+                      <p className="text-xl font-bold text-primary">{tarjeta.cuota}</p>
+                      <p className="text-xs text-muted-foreground">Cuota de manejo</p>
+                    </div>
+                    <div className="text-center hidden md:block">
+                      <p className="text-sm font-semibold text-card-foreground">{tarjeta.tasa}</p>
+                      <p className="text-xs text-muted-foreground">Tasa de interés</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-6 grid md:grid-cols-3 gap-6">
+                  {/* Descripción + Highlights */}
+                  <div>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">{tarjeta.descripcion}</p>
+                    <ul className="space-y-2">
+                      {tarjeta.highlights.map((h, i) => (
+                        <li key={i} className="flex gap-2 items-start">
+                          <h.icon className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                          <span className="text-xs text-muted-foreground leading-relaxed">{h.texto}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Asistencias */}
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-widest text-card-foreground mb-3">Asistencias incluidas</p>
+                    <ul className="space-y-2">
+                      {tarjeta.asistencias.map((a, i) => (
+                        <li key={i} className="flex gap-2 items-start">
+                          <CheckCircle className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+                          <span className="text-xs text-muted-foreground leading-relaxed">{a}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {/* Requisitos */}
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-widest text-card-foreground mb-3">Requisitos</p>
+                    <ul className="space-y-2 mb-4">
+                      {tarjeta.requisitos.map((r, i) => (
+                        <li key={i} className="flex gap-2 items-start">
+                          <FileText className="w-4 h-4 text-muted-foreground shrink-0 mt-0.5" />
+                          <span className="text-xs text-muted-foreground leading-relaxed">{r}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <div className="rounded-lg border border-border bg-muted/20 p-3">
+                      <p className="text-xs text-muted-foreground">
+                        <span className="font-semibold text-card-foreground">Avances:</span> desde $7.500 · Tasa {tarjeta.tasa}
+                      </p>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        Consulte el VTU (Valor Total Unificado del Pasivo) en Tasas y Tarifas vigentes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 w-full sm:w-fit" asChild>
+              <a href="https://www.davivienda.com/personas/tarjetas-de-credito" target="_blank" rel="noopener noreferrer">
+                Ver todas las tarjetas <ArrowRight className="w-4 h-4 ml-1" />
+              </a>
+            </Button>
           </div>
         </div>
 
