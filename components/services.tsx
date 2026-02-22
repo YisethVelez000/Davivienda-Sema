@@ -31,7 +31,7 @@ const services = [
     icon: Building2,
     title: "Crédito de Vivienda",
     description:
-      "Creditos hipotecarios y leasing habitacional para comprar la casa o apartamento que siempre soñaste.",
+      "Créditos hipotecarios y leasing habitacional para comprar la casa o apartamento que siempre soñaste.",
   },
   {
     icon: PiggyBank,
