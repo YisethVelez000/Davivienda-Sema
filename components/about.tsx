@@ -35,7 +35,7 @@ export function About() {
           {/* Content side */}
           <div>
             <span className="text-sm font-semibold uppercase tracking-widest text-primary">
-              Quienes Somos
+              Quiénes Somos
             </span>
             <h2 className="mt-4 text-3xl md:text-4xl font-serif font-bold text-foreground text-balance">
               Una Trayectoria de Confianza y Solidez
