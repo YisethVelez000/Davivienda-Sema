@@ -11,7 +11,7 @@ import { Card, CardContent } from "@/components/ui/card"
 const services = [
   {
     icon: CreditCard,
-    title: "Tarjetas de Credito",
+    title: "Tarjetas de Crédito",
     description:
       "Visa y Mastercard con beneficios exclusivos, millas, cashback y sin cuota de manejo el primer año.",
   },
