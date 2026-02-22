@@ -61,7 +61,7 @@ export function Services() {
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
             En Davivienda ofrecemos productos y servicios bancarios diseñados 
-            para acompanar cada etapa de tu vida financiera.
+            para acompañar cada etapa de tu vida financiera.
           </p>
         </div>
 
