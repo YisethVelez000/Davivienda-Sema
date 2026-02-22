@@ -5,13 +5,13 @@ import { DaviviendaLogo } from "@/components/davivienda-logo"
 const footerLinks = {
   Productos: [
     "Cuentas de Ahorro",
-    "Tarjetas de Credito",
-    "Creditos",
+    "Tarjetas de Crédito",
+    "Créditos",
     "Inversiones",
     "Seguros",
   ],
   Empresa: [
-    "Quienes Somos",
+    "Quiénes Somos",
     "Equipo Directivo",
     "Responsabilidad Social",
     "Sala de Prensa",
@@ -25,8 +25,8 @@ const footerLinks = {
     "Preguntas Frecuentes",
   ],
   Legal: [
-    "Terminos y Condiciones",
-    "Politica de Privacidad",
+    "Términos y Condiciones",
+    "Política de Privacidad",
     "Defensor del Consumidor",
     "Superintendencia Financiera",
   ],
@@ -43,7 +43,7 @@ export function Footer() {
               <DaviviendaLogo className="h-14 w-auto object-contain" />
             </Link>
             <p className="mt-4 text-sm text-background/50 leading-relaxed">
-              Aqui estamos para ti. Innovacion, seguridad y compromiso 
+              Aquí estamos para ti. Innovación, seguridad y compromiso 
               con tu futuro financiero.
             </p>
           </div>
