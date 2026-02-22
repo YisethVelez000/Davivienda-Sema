@@ -31,7 +31,7 @@ export function Hero() {
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight text-balance" style={{ color: "white" }}>
             Aquí estamos{" "}
-            <span className="text-primary">Para Ti</span>
+            <span className="text-primary">para ti</span>
           </h1>
 
           <p className="mt-6 text-lg md:text-xl leading-relaxed max-w-xl" style={{ color: "rgba(255,255,255,0.8)" }}>
@@ -73,7 +73,7 @@ export function Hero() {
             </div>
             <div>
               <p className="text-3xl font-bold" style={{ color: "white" }}>6</p>
-              <p className="text-sm" style={{ color: "rgba(255,255,255,0.7)" }}>Paises</p>
+              <p className="text-sm" style={{ color: "rgba(255,255,255,0.7)" }}> Países </p>
             </div>
           </div>
         </div>
