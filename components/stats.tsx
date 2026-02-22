@@ -16,8 +16,8 @@ const stats = [
   },
   {
     value: "6",
-    label: "Paises",
-    description: "Colombia, Panama, Costa Rica, Honduras, El Salvador y Miami",
+    label: "Países",
+    description: "Colombia, Panamá, Costa Rica, Honduras, El Salvador y Miami",
   },
 ]
 
