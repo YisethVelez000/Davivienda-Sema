@@ -16,7 +16,7 @@ export function CTA() {
             </h2>
             <p className="mt-6 text-lg text-primary-foreground/80 leading-relaxed">
               Abre tu cuenta Davivienda en minutos, sin papeleos. 
-              Nuestros asesores estan listos para acompanarte.
+              Nuestros asesores estan listos para acompañarte.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <Button
