@@ -60,7 +60,7 @@ export function Services() {
             Soluciones Financieras a Tu Medida
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            En Davivienda ofrecemos productos y servicios bancarios disenados 
+            En Davivienda ofrecemos productos y servicios bancarios diseñados 
             para acompanar cada etapa de tu vida financiera.
           </p>
         </div>
