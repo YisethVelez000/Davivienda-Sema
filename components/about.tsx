@@ -3,9 +3,9 @@ import { CheckCircle2 } from "lucide-react"
 
 const features = [
   "Mas de 50 años liderando el sector bancario en Colombia",
-  "Presencia internacional en 6 paises de la region",
+  "Presencia internacional en 6 países la región",
   "Banca digital de vanguardia con DaviPlata",
-  "Red de mas de 700 oficinas y 2.500 cajeros automaticos",
+  "Red de mas de 700 oficinas y 2.500 cajeros automáticos",
 ]
 
 export function About() {
@@ -27,7 +27,7 @@ export function About() {
             <div className="absolute -bottom-6 -right-6 bg-card rounded-xl shadow-xl p-6 hidden md:block max-w-[220px] border border-border">
               <p className="text-3xl font-bold text-primary">98%</p>
               <p className="text-sm text-muted-foreground mt-1">
-                Tasa de satisfaccion de nuestros clientes
+                Tasa de satisfacción de nuestros clientes
               </p>
             </div>
           </div>
@@ -43,11 +43,11 @@ export function About() {
             <p className="mt-6 text-muted-foreground leading-relaxed">
               En Davivienda creemos que el progreso de las personas y las empresas es nuestro 
               progreso. Con mas de 50 años de experiencia, somos uno de los bancos mas grandes 
-              y solidos de Colombia, con presencia en toda la region.
+              y sólidos de Colombia, con presencia en toda la región.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Nuestra plataforma digital DaviPlata ha revolucionado la inclusion financiera 
-              en el pais, llevando servicios bancarios a millones de colombianos. Innovamos 
+              Nuestra plataforma digital DaviPlata ha revolucionado la inclusión financiera 
+              en el país, llevando servicios bancarios a millones de colombianos. Innovamos 
               constantemente para estar mas cerca de ti.
             </p>
 
