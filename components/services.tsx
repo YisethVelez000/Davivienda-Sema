@@ -13,7 +13,7 @@ const services = [
     icon: CreditCard,
     title: "Tarjetas de Credito",
     description:
-      "Visa y Mastercard con beneficios exclusivos, millas, cashback y sin cuota de manejo el primer ano.",
+      "Visa y Mastercard con beneficios exclusivos, millas, cashback y sin cuota de manejo el primer año.",
   },
   {
     icon: TrendingUp,
