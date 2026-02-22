@@ -35,7 +35,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 text-lg md:text-xl leading-relaxed max-w-xl" style={{ color: "rgba(255,255,255,0.8)" }}>
-            En Davivienda te acompañamos en cada paso. Cuentas, creditos, 
+            En Davivienda te acompañamos en cada paso. Cuentas, créditos, 
             inversiones y banca digital con la seguridad y confianza que mereces.
           </p>
 
